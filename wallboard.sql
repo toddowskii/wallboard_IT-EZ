@@ -38,16 +38,16 @@ CREATE TABLE `tbannouncements` (
 --
 
 INSERT INTO `tbannouncements` (`IdAnnouncement`, `description`, `dateAdding`) VALUES
-(1, 'System maintenance scheduled for March 20th.', '2025-03-15'),
-(2, 'New company policy updates available in the portal.', '2025-03-16'),
-(3, 'Upcoming team-building event on April 5th.', '2025-03-17'),
-(4, 'Reminder: Quarterly performance reviews start next week.', '2025-03-18'),
-(5, 'Security update: Please reset your passwords.', '2025-03-19'),
-(6, 'Office renovation will start next Monday.', '2025-03-20'),
-(7, 'New training materials have been uploaded.', '2025-03-21'),
-(8, 'Don’t forget to submit your expense reports.', '2025-03-22'),
-(9, 'Health and wellness seminar on April 10th.', '2025-03-23'),
-(10, 'Company picnic scheduled for May 1st.', '2025-03-24');
+(1, 'Planowana konserwacja systemu na 20 marca.', '2025-03-15'),
+(2, 'Nowe aktualizacje polityki firmy dostępne w portalu.', '2025-03-16'),
+(3, 'Nadchodzące wydarzenie integracyjne zespołu 5 kwietnia.', '2025-03-17'),
+(4, 'Przypomnienie: Przeglądy kwartalne wydajności rozpoczynają się w przyszłym tygodniu.', '2025-03-18'),
+(5, 'Aktualizacja zabezpieczeń: Proszę zresetować hasła.', '2025-03-19'),
+(6, 'Remont biura rozpocznie się w najbliższy poniedziałek.', '2025-03-20'),
+(7, 'Nowe materiały szkoleniowe zostały przesłane.', '2025-03-21'),
+(8, 'Nie zapomnij przesłać swoich raportów wydatków.', '2025-03-22'),
+(9, 'Seminarium o zdrowiu i wellness 10 kwietnia.', '2025-03-23'),
+(10, 'Firmowy piknik zaplanowany na 1 maja.', '2025-03-24');
 
 -- --------------------------------------------------------
 
@@ -176,26 +176,26 @@ CREATE TABLE `tbmeetings` (
 --
 
 INSERT INTO `tbmeetings` (`IdMeeting`, `meetingDate`, `subject`) VALUES
-(1, '2025-03-20', 'Monthly Team Review'),
-(2, '2025-03-25', 'Project X Progress Check'),
-(3, '2025-04-01', 'Sales Strategy Planning'),
-(4, '2025-04-05', 'HR Policy Updates'),
-(5, '2025-04-10', 'Finance Quarterly Report'),
-(6, '2025-04-15', 'Customer Feedback Analysis'),
-(7, '2025-04-20', 'Operations Optimization Meeting'),
-(8, '2025-04-22', 'New Product Launch Discussion'),
-(9, '2025-04-25', 'Legal Compliance Review'),
-(10, '2025-05-01', 'IT System Upgrade Planning'),
-(11, '2025-05-05', 'Team Building and Culture Development'),
-(12, '2025-05-10', 'Market Expansion Discussion'),
-(13, '2025-05-15', 'Supply Chain Efficiency Meeting'),
-(14, '2025-05-18', 'Customer Service Excellence Strategy'),
-(15, '2025-05-20', 'Internal Communication Improvement'),
-(16, '2025-05-25', 'R&D Future Innovations'),
-(17, '2025-06-01', 'Product Quality Control Review'),
-(18, '2025-06-05', 'Leadership Development Program'),
-(19, '2025-06-10', 'Budget Allocation Review'),
-(20, '2025-06-15', 'Brand Positioning Strategy');
+(1, '2025-03-20', 'Miesięczny przegląd zespołu'),
+(2, '2025-03-25', 'Kontrola postępów Projektu X'),
+(3, '2025-04-01', 'Planowanie strategii sprzedaży'),
+(4, '2025-04-05', 'Aktualizacje polityki HR'),
+(5, '2025-04-10', 'Kwartalny raport finansowy'),
+(6, '2025-04-15', 'Analiza opinii klientów'),
+(7, '2025-04-20', 'Spotkanie optymalizacyjne operacji'),
+(8, '2025-04-22', 'Dyskusja o wprowadzeniu nowego produktu'),
+(9, '2025-04-25', 'Przegląd zgodności prawnej'),
+(10, '2025-05-01', 'Planowanie modernizacji systemu IT'),
+(11, '2025-05-05', 'Budowanie zespołu i rozwój kultury organizacyjnej'),
+(12, '2025-05-10', 'Dyskusja o ekspansji rynkowej'),
+(13, '2025-05-15', 'Spotkanie dotyczące efektywności łańcucha dostaw'),
+(14, '2025-05-18', 'Strategia doskonałości obsługi klienta'),
+(15, '2025-05-20', 'Poprawa komunikacji wewnętrznej'),
+(16, '2025-05-25', 'Innowacje na przyszłość w R&D'),
+(17, '2025-06-01', 'Przegląd kontroli jakości produktu'),
+(18, '2025-06-05', 'Program rozwoju przywództwa'),
+(19, '2025-06-10', 'Przegląd alokacji budżetu'),
+(20, '2025-06-15', 'Strategia pozycjonowania marki');
 
 -- --------------------------------------------------------
 
@@ -213,26 +213,26 @@ CREATE TABLE `tbquotes` (
 --
 
 INSERT INTO `tbquotes` (`IdQuotes`, `description`) VALUES
-(1, 'Success is not final, failure is not fatal: It is the courage to continue that counts.'),
-(2, 'The only way to do great work is to love what you do.'),
-(3, 'Believe you can and you\'re halfway there.'),
-(4, 'The future belongs to those who believe in the beauty of their dreams.'),
-(5, 'It does not matter how slowly you go as long as you do not stop.'),
-(6, 'Don\'t watch the clock; do what it does. Keep going.'),
-(7, 'Success usually comes to those who are too busy to be looking for it.'),
-(8, 'Opportunities don\'t happen, you create them.'),
-(9, 'The best way to predict the future is to create it.'),
-(10, 'You only live once, but if you do it right, once is enough.'),
-(11, 'Success is the sum of small efforts, repeated day in and day out.'),
-(12, 'Hardships often prepare ordinary people for an extraordinary destiny.'),
-(13, 'The only limit to our realization of tomorrow is our doubts of today.'),
-(14, 'The way to get started is to quit talking and begin doing.'),
-(15, 'Everything you\'ve ever wanted is on the other side of fear.'),
-(16, 'If you can dream it, you can do it.'),
-(17, 'Do not wait to strike till the iron is hot, but make it hot by striking.'),
-(18, 'A goal without a plan is just a wish.'),
-(19, 'What lies behind us and what lies before us are tiny matters compared to what lies within us.'),
-(20, 'Life is 10% what happens to us and 90% how we react to it.');
+(1, 'Sukces nie jest ostateczny, porażka nie jest śmiertelna: liczy się odwaga, by kontynuować.'),
+(2, 'Jedyny sposób na wspaniałą pracę to kochać to, co się robi.'),
+(3, 'Uwierz, że możesz, a już jesteś w połowie drogi.'),
+(4, 'Przyszłość należy do tych, którzy wierzą w piękno swoich marzeń.'),
+(5, 'Nie ma znaczenia, jak wolno idziesz, dopóki się nie zatrzymujesz.'),
+(6, 'Nie patrz na zegar; rób to, co on. Idź dalej.'),
+(7, 'Sukces zwykle przychodzi do tych, którzy są zbyt zajęci, by go szukać.'),
+(8, 'Okazje się nie zdarzają, to ty je tworzysz.'),
+(9, 'Najlepszy sposób na przewidzenie przyszłości to jej stworzenie.'),
+(10, 'Żyje się tylko raz, ale jeśli robisz to dobrze, ten raz wystarczy.'),
+(11, 'Sukces to suma małych wysiłków, powtarzanych dzień po dniu.'),
+(12, 'Trudności często przygotowują zwykłych ludzi do niezwykłego przeznaczenia.'),
+(13, 'Jedynym ograniczeniem naszej przyszłości są nasze dzisiejsze wątpliwości.'),
+(14, 'Droga do sukcesu zaczyna się od przestania mówienia i rozpoczęcia działania.'),
+(15, 'Wszystko, czego kiedykolwiek pragnąłeś, znajduje się po drugiej stronie strachu.'),
+(16, 'Jeśli możesz to sobie wymarzyć, możesz to zrobić.'),
+(17, 'Nie czekaj, aż żelazo stanie się gorące – rozgrzej je, uderzając.'),
+(18, 'Cel bez planu to tylko życzenie.'),
+(19, 'To, co za nami i to, co przed nami, jest niczym w porównaniu do tego, co jest w nas.'),
+(20, 'Życie to w 10% to, co nam się przydarza, a w 90% to, jak na to reagujemy.');
 
 -- --------------------------------------------------------
 
@@ -254,11 +254,11 @@ CREATE TABLE `tbteams` (
 --
 
 INSERT INTO `tbteams` (`IdTeam`, `nameTeam`, `goal`, `goalPercentage`, `quoteID`, `announcementID`) VALUES
-(1, 'Marketing', 'Increase brand awareness by 15%', 75, 1, 1),
-(2, 'Sales', 'Achieve $1M in sales this quarter', 60, 2, 2),
-(3, 'Development', 'Complete project X by end of Q2', 80, 3, 3),
-(4, 'HR', 'Hire 5 new team members by next month', 70, 4, 4),
-(5, 'Finance', 'Reduce operational costs by 10%', 85, 5, 5);
+(1, 'Marketing', 'Zwiększyć świadomość marki o 15%', 75, 1, 1),
+(2, 'Sprzedaż', 'Osiągnąć 1 mln USD sprzedaży w tym kwartale', 60, 2, 2),
+(3, 'Rozwój', 'Zakończyć projekt X do końca drugiego kwartału', 80, 3, 3),
+(4, 'HR', 'Zatrudnić 5 nowych członków zespołu do przyszłego miesiąca', 70, 4, 4),
+(5, 'Finanse', 'Zmniejszyć koszty operacyjne o 10%', 85, 5, 5);
 
 --
 -- Indeksy dla zrzutów tabel
