@@ -6,6 +6,7 @@
     <title>Strona Główna</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="time.js" defer></script>
 </head>
 <body>
     <section id="left">
@@ -37,16 +38,5 @@
             </blockquote> 
         </section>
     </section>
-
-    <script>
-        window.onload = function() {
-            const now = new Date();
-            var czas = document.getElementById("time");
-            let czasteraz = now.toLocaleTimeString(); 
-            czas.innerHTML = czasteraz;
-
-            document.querySelector(".translate-btn").addEventListener("click", translateToPolish);
-        }
-    </script>
 </body>
 </html>
